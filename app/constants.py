@@ -1,0 +1,1 @@
+AGIFY_URL = "https://api.agify.io/"
