@@ -89,8 +89,8 @@ All tests should pass
 ## Potential Improvements
 - Monitoring & Logging: to track application performance and resource usage, capture errors, warnings, and other important events
 - Security: security measures such as CSRF protection,SSL/TSL and user authentication
-- Scalability: introducing a load-balancer to implement horizontal scaling, hence allowing the application to be scalable.
-- Rate-Limiting: this will help prevent abuse and protect against DDoS attacks.
+- Scalability: introducing a load-balancer to implement horizontal scaling, hence allowing the application to be scalable, as well as utilizing a more production-grade distributed caching solution like Redis.
+- Rate-Limiting: enforcing rate limits on API endpoints will help prevent abuse and protect against DDoS attacks.
 - Continuous Integration & Deployment (CI/CD): setting up CI/CD pipelines to automate the build, test, and deployment processes, using tools like Jenkins, GithubActions.
 
 
