@@ -58,7 +58,7 @@ Access the application at [http://localhost:8000](http://localhost:8000).
 
 ## API Endpoints
 
-##### `POST /api/human-age/`
+#### `POST /api/human-age/`
 Request Body
 ```json
 {
