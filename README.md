@@ -23,7 +23,8 @@ A Simple REST API that guesses the age of a person by their name
 
 ### Method 1 (Using docker-compose)
 ```bash
-docker-compose up -d
+docker compose build
+docker compose up -d
 ```
 
 ### Method 2 (Local installation)
@@ -89,7 +90,7 @@ All tests should pass
 ## Potential Improvements
 - Monitoring & Logging: to track application performance and resource usage, capture errors, warnings, and other important events
 - Security: security measures such as CSRF protection,SSL/TSL and user authentication
-- Scalability: introducing a load-balancer to implement horizontal scaling, hence allowing the application to be scalable, as well as utilizing a more production-grade distributed caching solution like Redis.
+- Scalability: introducing a load-balancer to implement horizontal scaling, hence allowing the application to be scalable, as well as utilizing a more production-grade distributed caching solution like Redis would be an upgrade on the file-system cache which is currently in use. 
 - Rate-Limiting: enforcing rate limits on API endpoints will help prevent abuse and protect against DDoS attacks.
 - Continuous Integration & Deployment (CI/CD): setting up CI/CD pipelines to automate the build, test, and deployment processes, using tools like Jenkins, GithubActions etc.
 
