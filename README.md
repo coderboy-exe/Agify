@@ -5,7 +5,7 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoint](#api-endpoint)
+- [API Endpoints](#api-endpoints)
 - [Testing](#testing)
 - [Potential Improvements](#potential-improvements)
 - [License](#license)
@@ -56,7 +56,7 @@ python manage.py runserver
 Access the application at [http://localhost:8000](http://localhost:8000).
 
 
-## API Endpoint(s)
+## API Endpoints
 
 ##### `POST /api/human-age/`
 Request Body
