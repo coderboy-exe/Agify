@@ -91,7 +91,7 @@ All tests should pass
 - Security: security measures such as CSRF protection,SSL/TSL and user authentication
 - Scalability: introducing a load-balancer to implement horizontal scaling, hence allowing the application to be scalable, as well as utilizing a more production-grade distributed caching solution like Redis.
 - Rate-Limiting: enforcing rate limits on API endpoints will help prevent abuse and protect against DDoS attacks.
-- Continuous Integration & Deployment (CI/CD): setting up CI/CD pipelines to automate the build, test, and deployment processes, using tools like Jenkins, GithubActions.
+- Continuous Integration & Deployment (CI/CD): setting up CI/CD pipelines to automate the build, test, and deployment processes, using tools like Jenkins, GithubActions etc.
 
 
 ## License
