@@ -5,7 +5,7 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoint(s)](#api-endpoint(s))
+- [API Endpoint(s)](#api-endpoint)
 - [Testing](#testing)
 - [Potential Improvements](#potential-improvements)
 - [License](#license)
