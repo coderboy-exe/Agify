@@ -12,7 +12,7 @@
 
 ## Overview
 
-A Simple REST API guesses the age of a person by their name
+A Simple REST API that guesses the age of a person by their name
 
 ## Prerequisites
 
@@ -59,13 +59,14 @@ Access the application at [http://localhost:8000](http://localhost:8000).
 ## API Endpoint(s)
 
 ##### `POST /api/human-age/`
+Request Body
 ```json
-// Payload
 {
     "name": "Joe"
 }
-
-// Response
+```
+Response
+```json
 {
     "name": "joe",
     "age": 65,
