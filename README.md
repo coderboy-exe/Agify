@@ -42,7 +42,7 @@ python -m venv my-env
 # Windows (Assuming you are using a bash terminal)
 source my-env/Scripts/activate
 # Linux
-source my-env/bin/activate 
+# source my-env/bin/activate 
 
 # Install dependencies
 pip install -r requirements.txt
